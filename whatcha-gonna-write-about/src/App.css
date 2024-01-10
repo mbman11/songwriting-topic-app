@@ -1,7 +1,7 @@
-.main {
+/* .main {
   display: flex;
   justify-content: center;
-}
+} */
 
 .navbar {
   background-color: rgb(133, 133, 133);
@@ -10,23 +10,65 @@
   align-items: center;
 }
 
-.random-generator-container {
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+/* .random-generator-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(204, 235, 204);
-  padding: 20px;
-}
+} */
 
-.home {
+.randomGenSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgb(215, 215, 172);
   height: 400px;
+  width: 100%;
 }
 
-.content {
+/* .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(193, 193, 193);
+} */
+
+
+.textBoxSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+  background-color: rgb(237, 213, 213);
+  height: auto;
+  max-width: 100%;
+}
+
+textarea {
+  display: flex;
+}
+
+#add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+.tips-section h3 {
+  margin: 0;
+}
+
+.tips-section {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(157, 170, 157);
+  height: 600px;
 }

@@ -1,13 +1,18 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import RandomGenSection from "./components/RandomGenSection";
+import TextBox from "./components/TextBox";
+import Tips from "./components/Tips";
+
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="content">
-        <Home />
+      <div>
+        <RandomGenSection />
+        <TextBox/>
+        <Tips/>
       </div>
     </div>
   );
